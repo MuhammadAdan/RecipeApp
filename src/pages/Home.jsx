@@ -1,11 +1,12 @@
 import Popular from "../components/Popular";
 import Veggie from "../components/Veggie";
+import { motion } from "framer-motion";
 function Home() {
   return (
-    <div>
-      <Popular />
+    <motion.div>
       <Veggie />
-    </div>
+      <Popular />
+    </motion.div>
   );
 }
 
